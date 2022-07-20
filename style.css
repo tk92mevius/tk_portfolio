@@ -1,0 +1,440 @@
+@charset "UTF-8";
+ 
+body {
+margin:0;
+background-color: rgb(160, 160, 160);
+}
+footer{
+text-align: center;
+color: white;
+}
+
+/* ヘッダーエリア */
+.background-area img{
+display: inline-block;
+position: relative;
+height: 100vh;
+width: 100%;
+}
+.background-area li{
+position: absolute;
+}
+.title1{
+color: white;
+top: 28%;
+left: 14%;
+list-style: none;
+font-size: 60px;
+}
+.title2{
+color: white;
+top: 53%;
+left: 15%;
+list-style: none;
+font-size: 60px;
+}
+.menu-bar{
+text-align: center;
+position: sticky;
+position: fixed;
+top: 0;
+background-color: rgb(154, 154, 154);
+width: 100%;
+border-bottom: 1px solid rgba(0,0,0,1);
+box-shadow: 2px 2px 4px gray; 
+height:35px;
+}
+.menu-bar a{
+color: white;
+text-decoration: none;
+font-size: 25px;
+}
+.menu-bar a:hover{
+color: rgb(0, 0, 0);
+text-decoration: none;
+font-size: 25px;
+}
+
+/* プロフィールエリア */
+
+.profofile-area{
+border-bottom: 1px solid rgb(0,0,0,1);
+box-shadow: 2px 2px 4px gray;
+height: 100vh;
+}
+.profile-header{
+display: flex;
+border-bottom: 1px solid rgb(255, 255, 255); 
+}
+.profile-title{
+width: 53%;
+margin-top: 40px;
+}
+.profile-title p{
+font-size: 50px;
+float: left;    
+color: white;
+margin-top: 1px;
+margin-bottom: 1px;
+}
+.profile-img{
+width: 47%;
+margin-bottom: 20px;
+margin-top: 40px;
+}
+.profile-img img{
+width: 88px;
+height: 80px;
+float: right;
+margin-right: 10px;
+}
+.self-introduction-area{
+display: flex;
+padding: 20px;
+height: 80%;
+}
+.self-status{
+width: 50%;
+height: 100%;
+padding: 30px;
+border: 5px solid white;
+border-radius: 20%;
+background-color: white;
+font-size: 20px;
+}
+.self-img{
+width: 50%;
+height: 100%;
+text-align: right;
+padding-left: 20px;
+}
+.self-img img{
+height: 100%;
+width:80%;
+border-radius: 25%;
+}
+
+/* スキルエリア */
+
+.skill-area{
+border-bottom: 1px solid rgba(0,0,0,1);
+box-shadow: 2px 2px 4px gray;    
+height: 100vh;
+}
+.skill-header{
+display: flex;
+border-bottom: 1px solid rgb(255, 255, 255); 
+font-size: 50px;
+}
+.skill-title{
+width: 50%;
+margin-top: 30px;
+}
+.skill-title p{
+font-size: 50px;
+float: left;    
+color: white;
+margin-top: 15px;
+margin-bottom: 1px;
+}
+.skill-img{
+width: 50%;
+margin-bottom: 1px;
+margin-top: 30px;
+}
+.skill-img img{
+width: 110px;
+height: 110px;
+float: right;
+}
+.skill-caption{
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+color: white;
+font-size: 20px;
+}
+.skill-table{
+margin: auto 0;
+}
+table{
+border-collapse: collapse;
+table-layout:fixed;
+width: 100%;
+background-color: white;
+}
+th, td {
+font-size: 22px;
+font-weight: 100;
+text-align: center;
+}
+td{
+letter-spacing: 10px;
+}
+
+/* ワークスエリア */
+
+.works-area{
+border-bottom: 1px solid rgba(0,0,0,1);
+box-shadow: 2px 2px 4px gray;    
+height: 100vh;
+}
+.works-header{
+display: flex;
+border-bottom: 1px solid rgb(255, 255, 255); 
+font-size: 50px;
+}
+.works-title{
+width: 52%;
+margin-top:20px;
+}
+.works-title p{
+font-size: 50px;
+float: left;    
+color: white;
+margin-top: 20px;
+}
+.works-img{
+width: 48%;
+margin-top:30px;
+}
+.works-img img{
+width: 120px;
+height: 120px;
+float: right;
+}
+.self-production{
+display: flex;
+text-align: center;
+padding: 10px;
+margin-top: 20px;
+}
+.self-portfolio{
+width: 50%;
+background-color: white;
+padding-top: 30px;
+}
+.self-portfolio img{
+display: block;
+height: 300px;
+width: 80%;
+margin: auto;   
+}
+.self-airplane{
+width: 50%;
+background-color: white;
+padding-top: 30px;
+}
+.self-airplane img{
+height: 300px;
+width: 80%;
+display: block;
+margin: auto;
+}
+
+/* コンタクトエリア */
+
+.contact-area{
+border-bottom: 1px solid rgba(0,0,0,1);
+box-shadow: 2px 2px 4px gray;    
+height: 100vh;
+}
+.contact-header{
+display: flex;
+border-bottom: 1px solid rgb(255, 255, 255); 
+font-size: 50px;
+}
+.contact-title{
+width: 55%;
+}
+.contact-title p{
+font-size: 50px;
+float: left;    
+color: white;
+margin-top: 40px;
+}
+.contact-img{
+width: 45%;
+margin-top: 40px;
+margin-right: 10px;
+margin-bottom: 9px;
+}
+.contact-img img{
+width: 70px;
+height: 75px;
+float: right;
+}
+.contact-box{
+display: flex;
+text-align: center;
+padding: 40px;
+}    
+.self-telphone{
+width: 50%;
+background-color: white;
+padding-top: 30px;
+}
+.self-telphone img{
+display: block;
+height: 300px;
+max-width: 100%;
+margin: auto;
+}
+.self-mail{
+width: 50%;
+background-color: white;
+padding-top: 30px;
+}
+.self-mail img{
+height: 300px;
+max-width: 100%;
+display: block;
+margin: auto;
+}
+    
+/* レスポンシブデザイン */
+
+@media screen and (max-width: 767px){
+    /* ヘッダーエリア */
+.background-area img{
+min-width:100%;
+}
+.title1{
+top: 30%;
+font-size: 30px;
+}
+.title2{
+top: 58%;
+left: 15%;
+font-size: 30px;
+}
+.menu-bar{
+height:25px;
+}
+.menu-bar a{
+color: white;
+text-decoration: none;
+font-size: 15px;
+}
+.menu-bar a:hover{
+font-size: 15px;
+}
+/* プロフィールエリア */
+.profile-header{
+padding-top: 10px;
+margin-top: -10px;
+}
+.profile-title p{
+font-size: 40px;
+margin-top: 8px;
+}
+.profile-img img{
+width: 80px;
+height: 70px;
+}   
+.self-introduction-area{
+padding: 10px;
+margin-top: 30px; 
+}
+.self-status{
+font-size: 12px;
+width: 50%;
+padding: 20px;
+height: 60%;
+margin-top: 50px;
+}
+.self-img{
+width: 50%;
+padding-right: 5px;
+} 
+.self-img img{
+margin-top: 50px;
+margin-left: 10px;     
+height: 300px;
+width: 100%;
+}
+/* スキルエリア */
+.skill-title p{
+font-size: 40px;
+margin-top: 8px;
+}
+.skill-img img{
+width: 90px;
+height: 90px;
+margin-bottom: 5px;
+}
+.skill-caption{
+font-size: 12px;
+}
+.skill-table{
+padding-left: 90px;
+padding-right: 90px;
+}
+th, td {
+font-size: 15px;
+height: 35px;
+}
+/* ワークスエリア */
+.works-header{
+padding-top: 25px;
+margin-top: -25px;
+}
+.works-title p{
+font-size: 40px;
+margin-bottom: 8px;
+}
+.works-img img{
+width: 90px;
+height: 90px;
+}
+.self-production{
+padding: 10px;
+margin-top: 60px;
+}
+.self-portfolio{
+padding-top: 10px;
+font-size: 10px;
+}
+.self-portfolio img{
+height: 200px;
+width: 200px;
+}
+.self-airplane{
+padding-top: 10px;
+font-size: 10px;
+}
+.self-airplane img{
+height: 200px;
+width: 200px;
+}
+/* コンタクトエリア */
+.contact-header{
+padding-top: 24px;
+margin-top: -24px;
+}
+.contact-title p{
+font-size: 40px;
+margin-bottom: 8px;
+}
+.contact-img img{
+width: 70px;
+height: 70px;
+}
+.contact-box{
+padding: 20px;
+margin-top: 30px;
+}
+.self-telphone{
+padding-top: 30px;
+}
+.self-telphone img{
+height: 200px;
+}
+.self-mail{
+padding-top: 30px;
+}
+.self-mail img{
+height: 200px;
+}
+}
+    
