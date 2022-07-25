@@ -447,3 +447,46 @@ height: 200px;
 }
 }
     
+
+@media screen and (max-width: 380px){
+/* プロフィールエリア */
+.self-status{
+font-size: 12px;
+}
+.self-img{
+padding-left: 10px;
+padding-right: 5px;
+}
+/* スキルエリア */
+.skill-caption{
+word-wrap:break-word;
+}
+.skill-table{
+padding-left: 50px;
+padding-right: 50px;
+}
+/* ワークスエリア */
+.self-production{
+word-wrap:break-word;
+}
+.self-portfolio{
+font-size: 11px;
+}
+.self-portfolio img{
+height: 100px;
+width: 100px;
+}
+.self-airplane{
+font-size: 11px;
+}
+.self-airplane img{
+height: 100px;
+width: 100px;
+}
+.self-telphone{
+font-size: 15px;
+}
+.self-mail{
+font-size: 15px;
+}
+}
