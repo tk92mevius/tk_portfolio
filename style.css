@@ -448,7 +448,7 @@ height: 200px;
 }
     
 
-@media screen and (max-width: 380px){
+@media screen and (max-width: 480px){
 /* プロフィールエリア */
 .self-status{
 font-size: 12px;
